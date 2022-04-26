@@ -79,4 +79,4 @@ extractedCols$SubjectNumber <- as.factor(extractedCols$SubjectNumber)
 
 tidyData <- aggregate(. ~SubjectNumber + Activity, extractedCols, mean)
 tidyData <- tidyData[order(tidyData$SubjectNumber,tidyData$Activity),]
-write.table(tidyData, file = "tidyData.csv", row.names = FALSE, quote = FALSE)
+write.table(tidyData, file = "tidyData.txt", row.names = FALSE, quote = FALSE)
