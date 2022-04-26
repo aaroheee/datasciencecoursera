@@ -10,9 +10,9 @@
 
 # 1. Merges the training and the test sets to create one data set. ----
 ## Downloading the data
-packages <- c('dplyr','data.table','reshape2')
+packages <- c('dplyr','data.table')
 invisible(lapply(packages, library, character.only = TRUE))
-setwd("D:/Application/RPrac/")
+#setwd("D:/Application/RPrac/")
 
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url,destfile = "GCDataSet.zip")
