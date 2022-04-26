@@ -18,7 +18,10 @@ url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 download.file(url,destfile = "GCDataSet.zip")
 unzip(zipfile = "GCDataSet.zip")
 
-path <- "D:/Application/RPrac/UCI HAR Dataset/"
+## Set your path
+workD <- getwd()
+path <- paste0(workD,"/UCI HAR Dataset/")
+
 
 ## Reading activity names and labels
 activityLabel <- fread(file.path(path,"activity_labels.txt"), col.names = c("Label","ActivityName"))
