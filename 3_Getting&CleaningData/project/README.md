@@ -20,6 +20,6 @@
   
   Github Repo: https://github.com/aaroheee/datasciencecoursera/tree/main/3_Getting%26CleaningData/project
   
-  Cookbook: https://github.com/aaroheee/datasciencecoursera/blob/main/3_Getting%26CleaningData/project/CodeBook
+  Codebook: https://github.com/aaroheee/datasciencecoursera/blob/main/3_Getting%26CleaningData/project/CodeBook
   
   README: Hey!
